@@ -1,5 +1,5 @@
 const nomePartecipante = prompt("Inserisci il tuo nome");
-const invitati = Array["luca", "simone", "francesco","andrea"];
+const invitati = ["luca", "simone", "francesco","andrea"];
 if(nomePartecipante.includes("luca")){
     console.log("Può entrare");
 }else if(nomePartecipante.includes("simone")){
